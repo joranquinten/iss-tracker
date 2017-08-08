@@ -5,6 +5,8 @@ ISS Tracker
 
 This repo builds an AngularJS app, which tracks the realtime location of the International Space Station (ISS), based on the public API. It also lists who is currently aboard the ISS.
 
+A live version can be found at: [http://iss.joranquinten.nl/](http://iss.joranquinten.nl/)
+
 ### Installation
 
 [NodeJS](https://nodejs.org/) and [GulpJS](http://gulpjs.com/) ([installation](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)) are required to develop and/or build this project. (Tested on node v4.4.7 ang Gulp v3.9.0)
