@@ -1,0 +1,15 @@
+<div id="home" class="row">
+
+  <ui-gmap-google-map ng-if="vm.map" center="vm.map.center" zoom="vm.map.zoom" options="vm.map.options">
+
+    <ui-gmap-marker idkey="vm.marker.markerId" coords="vm.marker.center" click="vm.showDetails()" options="vm.marker.options">
+    </ui-gmap-marker>
+  </ui-gmap-google-map>
+
+  <section class="dashboard">
+
+    <p>{{vm.satellite.name | uppercase }} is currently flying at {{vm.satellite.velocity | number : 2}} {{vm.satellite.units}} per hour over the indicated location at an altitude of {{vm.satellite.altitude | number : 2}} {{vm.satellite.units}}.</p>
+
+  </section>
+
+</div>
