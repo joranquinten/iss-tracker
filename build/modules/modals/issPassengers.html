@@ -1,0 +1,22 @@
+<div class="modal-header">
+<h3 class="modal-title" id="modal-title">Aboard the ISS:</h3>
+</div>
+<div class="modal-body" id="modal-body">
+
+<div class="table-responsive">
+  <table class="table table-striped" ng-if="vm.passengers">
+   <tr>
+    <th>Name</th>
+   </tr>
+
+   <tr data-ng-repeat="passenger in vm.passengers track by $index">
+    <td>{{passenger.name}}</td>
+   </tr>
+
+  </table>
+</div>
+
+</div>
+<div class="modal-footer">
+<button class="btn btn-primary" type="button" ng-click="vm.close()">Close</button>
+</div>
